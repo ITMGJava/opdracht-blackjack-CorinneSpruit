@@ -1,11 +1,22 @@
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
+import java.util.Scanner;
 
 public class BlackJack {
 
     public static void main(String[] arg) {
 
+       System.out.println("Welkom bij Black Jack! Wat is je naam?");
+
+       var x = new Scanner(System.in);
+       var naam = x.nextLine();
+
+       System.out.println("Laten we beginnen "+naam+". Ik zal beginnen met de kaarten goed te schudden;");
+
+
+
+// Het kaartspel in een Arraylist.
         ArrayList<String> kaarten = new ArrayList<String>();
 
        kaarten.add("S-Aas");
